@@ -24,10 +24,21 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "../style/variables.scss";
-    #logo-img{
-        width: 10%;
+@import "../style/general.scss";
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        a{
+            color: $secondaryColor;
+        }
     }
+    
+    #logo-img{
+        width: 40px;
+    }
+
 
 </style>

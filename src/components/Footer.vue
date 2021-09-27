@@ -65,6 +65,8 @@ export default {
 
 <style lang="scss">
 @import "../style/variables.scss";
+@import "../style/general.scss";
+
     .top-footer{
         background-image: url(../assets/img/footer-bg.jpg);
         img{
